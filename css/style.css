@@ -1,11 +1,44 @@
 /*****************************************************
 CSS GENERAL
 *****************************************************/
+
+:root {
+    --primary_color: #ffffff;
+}
+
 /*****************************************************
-CSS SITE "PHP ToDo List JSON"
+CSS "PHP ToDo List JSON"
 *****************************************************/
+
+body {
+    background-image: url("../img/braies.jpg");
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+}
+
 #wrapper {
     height: 100vh;
     width: 100%;
     overflow: hidden;
+}
+
+#list_container {
+    width: 700px;
+    margin-top: 30px;
+    padding: 85px 75px;
+    border-radius: 15px;
+    background-color: rgba(7, 7, 7, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+li {
+    color: var(--primary_color);
+}
+
+#options {
+    width: 80%;
+    padding-top: 3.5rem;
 }
