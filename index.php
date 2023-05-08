@@ -25,14 +25,18 @@
                     <h1 class="text-center">{{ title }}</h1>
                     <h4 class="text-center pt-2">{{ subtitle }}</h4>
                     <div id="options" class="mx-auto">
-                        <ul class="list-unstyled px-4" v-if="todoList.length > 0">
-                            <li class="small" v-for="(item, index) in todoList" :key="item.id">
+                        <ul class="list-unstyled px-4" v-if="toDoList.length > 0">
+                            <li class="small" v-for="(item, index) in toDoList" :key="index">
                                 <div class="option p-1 d-flex flex-row justify-content-between">
                                     <span><i class="fa-solid fa-chevron-right px-3"></i>{{ item.name }}</span>
                                 </div>
                             </li>
                         </ul>
                         <h3 class="text-center" v-else>Your list is empty!</h3>
+                    </div>
+                    <div class="input-group pt-3 mx-auto">
+                        <input type="text" class="form-control" placeholder="enter here your missing equipment" name="toDoItem" id="toDoItem" v-model="toDoItem" @keyup.enter="addItem()">
+                        <button @click="addItem()" class="btn btn-outline-secondary" type="button">send</button>
                     </div>
                 </div>
             </div>

@@ -1,38 +1,29 @@
 [
     {
-        "id": 1,
-        "name": "Giacca antivento/impermeabile"
+        "name": "Giacca antivento\/impermeabile"
     },
     {
-        "id": 2,
         "name": "Cappello e guanti"
     },
     {
-        "id": 3,
         "name": "Zaino adatto a camminare"
     },
     {
-        "id": 4,
         "name": "Torcia frontale"
     },
     {
-        "id": 5,
         "name": "Borracce"
     },
     {
-        "id": 6,
         "name": "Integratori alimentari"
     },
     {
-        "id": 7,
         "name": "Sacchetto rifiuti"
     },
     {
-        "id": 8,
         "name": "Bastoncini telescopici"
     },
     {
-        "id": 9,
         "name": "Scarpe da trekking con suola antiscivolo"
     }
 ]
