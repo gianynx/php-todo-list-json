@@ -27,7 +27,7 @@
                     <div id="options" class="mx-auto">
                         <ul class="list-unstyled px-4" v-if="toDoList.length > 0">
                             <li class="small" v-for="(item, index) in toDoList" :key="index">
-                                <div class="option p-1 d-flex flex-row justify-content-between">
+                                <div class="p-1 d-flex flex-row justify-content-between">
                                     <span><i class="fa-solid fa-chevron-right px-3"></i>{{ item.name }}</span>
                                 </div>
                             </li>
